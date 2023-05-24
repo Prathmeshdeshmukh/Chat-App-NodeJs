@@ -1,15 +1,13 @@
 var socket = io();
 
-let button = document.getElementById('btn');
+var button = document.getElementById('btn');
+var username = document.getElementById('userId').value;
+let roomid = document.getElementById('roomId').value;
 
-button.onclick = function excec(){
-    socket.emit('From_Client');
+button.onclick = ()=>{
+    // console.log(roomid);
+    var spanTag = document.getElementById('val');
+    spanTag.innerText= roomid;
 }
 
 
-socket.on('From_server', ()=>{
-    console.log('from_server')
-    const div = document.createElement('div');
-    div.innerText = 'new event from server';
-    document.body.appendChild(div);
-})

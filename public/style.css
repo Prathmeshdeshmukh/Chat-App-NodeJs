@@ -1,0 +1,30 @@
+.container {
+    border-radius: 2px;
+    background-color: bisque;
+    height: 80vh;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#userId{
+    border: 1px dashed #000000;
+	outline:0;
+	height:30px;
+	width: 275px;
+}
+#roomId{
+    border: 1px dashed #000000;
+	outline:0;
+	height:30px;
+	width: 275px;
+    margin-bottom: 2px;
+}
+
+#btn{
+    width: 8rem;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+
